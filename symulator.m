@@ -1,5 +1,5 @@
 t=0;
-nazwa = 'c:\\niduc\\dane.txt';
+nazwa = 'dane.txt';
 [fid, message] = fopen(nazwa,'r');
 if fid==-1
     disp(message)
@@ -16,7 +16,7 @@ stan=zeros(1,liczbaKas);
 czas=zeros(1,liczbaKas);
 czasZgloszenia=exprnd(wsp_przybycia);
 
-nazwa = 'c:\\niduc\\wynik.txt';
+nazwa = 'wynik.txt';
 [fid, message] = fopen(nazwa,'w');
 if fid==-1
     disp(message)
